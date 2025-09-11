@@ -1,7 +1,7 @@
 test run
 set enable_multi_ret_implicit_sret
-target riscv64 has_v
-target riscv64 has_v has_c has_zcb
+target riscv64gc has_v
+target riscv64gc has_v has_c has_zcb
 
 function %bitcast_i32x2_to_i64(i32x2) -> i64 {
 block0(v0: i32x2):

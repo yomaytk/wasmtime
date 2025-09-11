@@ -5,13 +5,13 @@ set enable_multi_ret_implicit_sret
 target x86_64
 target aarch64
 target aarch64 has_fp16
-target riscv64
-target riscv64 has_zfhmin
-target riscv64 has_zfhmin has_zfh
-target riscv64 has_zfa
-target riscv64 has_zfhmin has_zfa
-target riscv64 has_zfhmin has_zfh has_zfa
-target riscv64 has_zfhmin has_zvfh has_zfa
+target riscv64gc
+target riscv64gc has_zfhmin
+target riscv64gc has_zfhmin has_zfh
+target riscv64gc has_zfa
+target riscv64gc has_zfhmin has_zfa
+target riscv64gc has_zfhmin has_zfh has_zfa
+target riscv64gc has_zfhmin has_zvfh has_zfa
 target s390x
 
 

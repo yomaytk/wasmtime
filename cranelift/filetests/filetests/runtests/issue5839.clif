@@ -4,8 +4,8 @@ set opt_level=speed
 target aarch64
 target s390x
 target x86_64
-target riscv64
-target riscv64 has_c has_zcb
+target riscv64gc
+target riscv64gc has_c has_zcb
 
 function %a(i8, i8) -> i32 {
 block0(v0: i8, v1: i8):

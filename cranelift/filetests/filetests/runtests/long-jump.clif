@@ -4,8 +4,8 @@ set bb_padding_log2_minus_one=12
 target aarch64
 target s390x
 target x86_64
-target riscv64 has_m
-target riscv64 has_c has_zcb
+target riscv64gc has_m
+target riscv64gc has_c has_zcb
 target pulley32
 target pulley32be
 target pulley64

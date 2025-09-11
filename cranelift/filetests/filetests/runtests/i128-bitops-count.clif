@@ -5,10 +5,10 @@ target x86_64
 target x86_64 has_lzcnt
 target x86_64 has_bmi1
 target x86_64 has_popcnt has_sse42
-target riscv64
-target riscv64 has_zbb
-target riscv64 has_zbb has_zbs
-target riscv64 has_c has_zcb
+target riscv64gc
+target riscv64gc has_zbb
+target riscv64gc has_zbb has_zbs
+target riscv64gc has_c has_zcb
 set enable_multi_ret_implicit_sret
 target s390x
 

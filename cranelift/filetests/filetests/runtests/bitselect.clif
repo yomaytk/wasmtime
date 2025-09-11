@@ -3,15 +3,15 @@ set opt_level=none
 target aarch64
 target s390x
 target s390x has_mie3
-target riscv64
-target riscv64 has_c has_zcb
+target riscv64gc
+target riscv64gc has_c has_zcb
 target x86_64
 
 set opt_level=speed
 target aarch64
 target s390x
 target s390x has_mie3
-target riscv64
+target riscv64gc
 target x86_64
 
 function %bitselect_i8(i8, i8, i8) -> i8 {

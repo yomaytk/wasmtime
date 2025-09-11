@@ -1,6 +1,6 @@
 test interpret
 test run
-target riscv64
+target riscv64gc
 target aarch64
 target s390x
 

@@ -2,7 +2,7 @@ test run
 set preserve_frame_pointers=true
 target x86_64
 target aarch64
-target riscv64
+target riscv64gc
 target s390x
 
 function %entry() -> i64 tail {

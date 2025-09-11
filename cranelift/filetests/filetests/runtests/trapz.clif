@@ -3,7 +3,7 @@ test run
 set enable_llvm_abi_extensions=true
 target x86_64
 target aarch64
-target riscv64
+target riscv64gc
 set enable_multi_ret_implicit_sret
 target s390x
 

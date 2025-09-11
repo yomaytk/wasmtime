@@ -3,9 +3,9 @@ test run
 target x86_64
 target x86_64 has_avx
 target aarch64
-target riscv64
-target riscv64 has_zfa
-target riscv64 has_c has_zcb
+target riscv64gc
+target riscv64gc has_zfa
+target riscv64gc has_c has_zcb
 target s390x
 target pulley32
 target pulley32be

@@ -5,8 +5,8 @@ target x86_64
 target x86_64 has_avx
 target aarch64
 target s390x
-target riscv64
-target riscv64 has_c has_zcb
+target riscv64gc
+target riscv64gc has_c has_zcb
 
 function %a(f32, f32) -> f32 fast {
 block0(v0: f32, v1: f32):
