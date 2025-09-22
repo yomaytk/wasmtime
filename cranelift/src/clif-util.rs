@@ -7,7 +7,6 @@ mod compile;
 mod disasm;
 mod interpret;
 mod print_cfg;
-mod run;
 mod utils;
 
 #[cfg(feature = "souper-harvest")]
@@ -17,7 +16,6 @@ mod souper_harvest;
 #[derive(Parser)]
 enum Commands {
     Test(TestOptions),
-    Run(run::Options),
     Interpret(interpret::Options),
     Cat(cat::Options),
     PrintCfg(print_cfg::Options),
@@ -78,7 +76,6 @@ fn main() -> anyhow::Result<()> {
 
     match Commands::parse() {
         Commands::Cat(c) => cat::run(&c)?,
-        Commands::Run(r) => run::run(&r)?,
         Commands::Interpret(i) => interpret::run(&i)?,
         Commands::PrintCfg(p) => print_cfg::run(&p)?,
         Commands::Compile(c) => compile::run(&c)?,
